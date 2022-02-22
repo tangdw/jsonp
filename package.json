@@ -1,0 +1,33 @@
+{
+  "name": "@tangdw/jsonp",
+  "version": "0.0.1",
+  "author": "tangdw<tangdunwang@foxmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/tangdw/jsonp",
+  "main": "./dist/jsonp.umd.js",
+  "module": "./dist/jsonp.es.js",
+  "types": "types/jsonp.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/jsonp.es.js",
+      "require": "./dist/jsonp.umd.js"
+    }
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "keywords": [
+    "jsonp",
+    "promise"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0"
+  }
+}
