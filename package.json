@@ -1,16 +1,17 @@
 {
   "name": "@tangdw/jsonp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "tangdw<tangdunwang@foxmail.com>",
   "license": "MIT",
   "repository": "https://github.com/tangdw/jsonp",
-  "main": "./dist/jsonp.umd.js",
-  "module": "./dist/jsonp.es.js",
-  "types": "types/jsonp.d.ts",
+  "type": "module",
+  "main": "dist/jsonp.umd.js",
+  "module": "dist/jsonp.es.js",
+  "types": "types/main.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/jsonp.es.js",
-      "require": "./dist/jsonp.umd.js"
+      "import": "dist/jsonp.es.js",
+      "require": "dist/jsonp.umd.js"
     }
   },
   "files": [
